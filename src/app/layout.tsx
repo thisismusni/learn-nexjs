@@ -28,7 +28,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Button>Button</Button>
+        {/* <Button>Button</Button> */}
         {children}
       </body>
     </html>
