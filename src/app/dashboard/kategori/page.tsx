@@ -1,7 +1,12 @@
+import PageTitle from "@/components/text/page-title";
 import React from "react";
 
 function Kategori() {
-  return <div>Kategori</div>;
+  return (
+    <div>
+      <PageTitle>Kategori</PageTitle>
+    </div>
+  );
 }
 
 export default Kategori;

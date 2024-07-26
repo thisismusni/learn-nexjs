@@ -1,12 +1,12 @@
 import PageTitle from "@/components/text/page-title";
 import React from "react";
 
-function User() {
+function setting() {
   return (
     <div>
-      <PageTitle>User</PageTitle>
+      <PageTitle>Setting</PageTitle>
     </div>
   );
 }
 
-export default User;
+export default setting;

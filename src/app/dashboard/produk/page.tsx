@@ -1,3 +1,4 @@
+import PageTitle from "@/components/text/page-title";
 import React from "react";
 function delayTime(time: number) {
   return new Promise((resolve: any) =>
@@ -10,7 +11,11 @@ function delayTime(time: number) {
 
 async function Produk() {
   // const produk = await delayTime(3000);
-  return <div>Produk</div>;
+  return (
+    <div>
+      <PageTitle>Produk</PageTitle>
+    </div>
+  );
 }
 
 export default Produk;
